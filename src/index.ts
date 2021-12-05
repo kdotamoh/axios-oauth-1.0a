@@ -1,5 +1,6 @@
 import { AxiosInstance, AxiosRequestConfig } from "axios";
 import crypto from "crypto";
+import Buffer from "buffer"
 import { rfc3986, sign } from "oauth-sign";
 
 const isAbsoluteURL = (url: string): boolean =>
